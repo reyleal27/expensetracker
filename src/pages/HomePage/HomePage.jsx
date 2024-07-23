@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './HomePage.module.css';
-import { AllUserTab, BgImgWrapper, Container, DecorationTab, ImageSection, WelcomePage } from 'components';
+import { AllUserTab, Container,  ImageSection, WelcomePage } from 'components';
 
 const HomePage = () => {
   return (

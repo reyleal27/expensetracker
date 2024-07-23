@@ -1,5 +1,4 @@
 import React from 'react'
-import arrowIcon from '../../assets/icon/arrow-up-right.svg';
 import s from './ArrowUpBtn.module.css';
 import { MdOutlineArrowOutward } from "react-icons/md";
 

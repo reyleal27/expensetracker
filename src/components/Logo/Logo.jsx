@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import logoDesktopTablet  from 'assets/logo/Logodesktop.png';
 import logoMobile from 'assets/logo/LogoMobile.png'
 import { Link } from 'react-router-dom';
-import { useSelector } from 'react-redux';
 import s from './Logo.module.css'
 
 const Logo = () => {
