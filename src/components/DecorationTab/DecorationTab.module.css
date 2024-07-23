@@ -1,0 +1,38 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 303px;
+    height: 121px;
+    border-radius: 20px;
+    background-color: var(--bg-color);
+    /* position: absolute;
+    top: 60vh;
+    left: 10px; */
+}
+
+.textTitle{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondary-tx-color);
+}
+
+.textBalance{
+    margin-top: 5px;
+    color: var(--black-tx-color);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.textPercent{
+    margin-left: 5px;
+    color: var(--third-tx-color);
+    background-color: var(--secondary-bg-color);
+    font-weight: 400;
+    font-size: 12px;
+    width: 58px;
+    height: 22px;
+    border-radius: 13px;
+    padding: 2px 4px;
+}

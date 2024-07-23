@@ -1,0 +1,43 @@
+.userTabWrapper{
+    display: flex;
+}
+.userImg{
+    border: 2px solid rgba(17, 16, 28, 1);
+    border-radius: 50%;
+    background-color: white;
+    width: 48px;
+    height: 48px;
+}
+.userImg:nth-child(1) {
+    z-index: 5;
+}
+.userImg:nth-child(2){
+    position: relative;
+    right: 7px;
+    z-index: 4;
+}
+.userImg:nth-child(3) {
+    position: relative;
+    right: 14px;
+}
+
+.userTextWrapper{
+width: 210px;
+}
+
+.users{
+    color: var(--primary-tx-color);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.userText{
+    color: var(--gray-tx-color);
+    font-size: 16px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .userTabWrapper{
+        display: none;
+    }
+}

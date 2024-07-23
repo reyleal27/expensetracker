@@ -1,3 +1,12 @@
 export { default as Logo } from './Logo/Logo';
 export { default as Header } from './Header/Header';
 export { default as SharedLayout } from '../pages/SharedLayout';
+export { default as ArrowUpBtn } from '../components/ArrowUpBtn/ArrowUpBtn';
+export { default as DecorationTab } from '../components/DecorationTab/DecorationTab';
+export { default as Container } from '../components/Container/Container';
+export { default as PagesRoute } from '../PagesRoute/PagesRoute';
+export { default as BgImgWrapper } from './BgImgWrapper/BgImgWrapper';
+export { default as Button } from './Button/Button';
+export { default as WelcomePage } from './WelcomePage/WelcomePage';
+export { default as AllUserTab } from './AllUserTab/AllUserTab';
+export { default as ImageSection } from './ImageSection/ImageSection';

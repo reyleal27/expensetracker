@@ -1,0 +1,40 @@
+
+.text{
+    color: var(--gray-tx-color);
+    font-size: 14px;
+    line-height: 16.21px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.welcomeText{
+    margin-top: 20px;
+    color: var(--primary-tx-color);
+    font-size: 56px;
+    line-height: 64.85px;
+    font-weight: 400;
+    width: 575px;
+}
+
+.textStyle{
+    color: var(--btn-hover-color);
+    border-bottom: 5px solid var(--btn-hover-color);
+    padding-bottom: 3px;
+    font-weight: 400;
+}
+
+.textParagraph{
+    width: 533px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray-tx-color);
+    line-height: 18.53px;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+}
+
+.btnWrapper{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}

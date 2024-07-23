@@ -8,8 +8,8 @@ import s from './Logo.module.css'
 const Logo = () => {
 
   return (
-    <div>
-      <Link to="">
+    <div className={s.logoWrapper}>
+      <Link to="/">
         <img
           src={logoMobile}
           className={s.logoMobile}
@@ -19,7 +19,7 @@ const Logo = () => {
         />
         <img
           src={logoDesktopTablet}
-          className={s.logoDesktopTablet}
+          className={s.logoDesktop}
           alt="expensetracker logo"
           width={207}
           height={23}

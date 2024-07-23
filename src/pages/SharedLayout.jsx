@@ -4,10 +4,12 @@ import { Outlet } from 'react-router-dom'
 
 const SharedLayout = () => {
   return (
-      <div><Header />
+      <div>
+          <Header />
           <Suspense fallback='loading..'>
               <Outlet />
-          </Suspense></div>
+          </Suspense>
+      </div>
   )
 }
 

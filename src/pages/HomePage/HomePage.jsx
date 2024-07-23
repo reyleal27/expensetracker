@@ -1,0 +1,23 @@
+import React from 'react';
+import s from './HomePage.module.css';
+import { AllUserTab, BgImgWrapper, Container, DecorationTab, ImageSection, WelcomePage } from 'components';
+
+const HomePage = () => {
+  return (
+    <main>
+      <section className={s.section}>
+        <Container name={s.wrapper}>
+          {/* <DecorationTab />
+          <BgImgWrapper /> */}
+          <ImageSection/>
+          <div className={s.welcomePageWrapper}>
+          <WelcomePage />
+          <AllUserTab/>
+          </div>
+        </Container>
+      </section>
+    </main>
+  )
+};
+
+export default HomePage;

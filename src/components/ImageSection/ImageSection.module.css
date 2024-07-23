@@ -1,0 +1,26 @@
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+@media screen and (min-width: 1280px) {
+    .decorationTabWrapper {
+            position: relative;
+            top: -30%;
+            left: -20px;
+        }
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1279px){
+    .decorationTabWrapper{
+        position: relative;
+        top:-200px;
+        left: 20px;
+    }
+
+    .wrapper{
+        height: 650px;
+        margin-bottom: 20px;
+    }
+};
+

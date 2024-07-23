@@ -1,0 +1,22 @@
+.logoWrapper{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+@media screen  and (max-width: 378px){
+    .logoMobile{
+        display: block;
+    }
+    .logoDesktop{
+        display: none;
+    }
+}
+@media screen and (min-width: 379px) {
+    .logoMobile {
+        display: none;
+    }
+
+    .logoDesktop {
+        display: block;
+    }
+}

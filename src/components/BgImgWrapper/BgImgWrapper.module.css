@@ -1,0 +1,14 @@
+.imgBg{
+    width: 611px;
+    height: 568px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+@media screen and (min-width:768px) and (max-width:1279px){
+.imgBg{
+
+   background-image: url('../../assets//img/homebgTablet.png');
+   background-size: 704px;
+    }
+}
