@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/expensetracker/static/css/main.3b8ef2f9.css",
-    "main.js": "/expensetracker/static/js/main.2c7fdcf2.js",
+    "main.js": "/expensetracker/static/js/main.e2f63ccb.js",
     "static/css/674.f190364f.chunk.css": "/expensetracker/static/css/674.f190364f.chunk.css",
     "static/js/674.7624c6c6.chunk.js": "/expensetracker/static/js/674.7624c6c6.chunk.js",
     "static/media/homebg.png": "/expensetracker/static/media/homebg.7b8413bdbd40263d05fd.png",
@@ -14,12 +14,12 @@
     "static/media/SuisseIntl-Regular.ttf": "/expensetracker/static/media/SuisseIntl-Regular.d1a6a5b0cd76d384f42f.ttf",
     "index.html": "/expensetracker/index.html",
     "main.3b8ef2f9.css.map": "/expensetracker/static/css/main.3b8ef2f9.css.map",
-    "main.2c7fdcf2.js.map": "/expensetracker/static/js/main.2c7fdcf2.js.map",
+    "main.e2f63ccb.js.map": "/expensetracker/static/js/main.e2f63ccb.js.map",
     "674.f190364f.chunk.css.map": "/expensetracker/static/css/674.f190364f.chunk.css.map",
     "674.7624c6c6.chunk.js.map": "/expensetracker/static/js/674.7624c6c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b8ef2f9.css",
-    "static/js/main.2c7fdcf2.js"
+    "static/js/main.e2f63ccb.js"
   ]
 }
