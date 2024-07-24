@@ -12,3 +12,15 @@
    background-size: 704px;
     }
 }
+
+@media screen and (max-width:767px) {
+    .imgBg {
+
+        background-image: url('../../assets//img/homeBgMobile.png');
+        width: 335px;
+        height: 381px;
+        background-size: cover;
+        background-position: center;
+        margin: 0 auto;
+    }
+}

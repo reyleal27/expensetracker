@@ -36,7 +36,7 @@ width: 210px;
     font-size: 16px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .userTabWrapper{
         display: none;
     }
